@@ -20,14 +20,14 @@ public class Uppgift5 : MonoBehaviour
         valC = Method(valA, valB);
         if (valC < valE && valC > valD)
         {
-            Debug.Log("den är mellan D och E");
+            Debug.Log("between D and E");
         }
-        //Prints if valC is bigger than valD and smaller than valE.
+        //if valC is bigger than valD and smaller than valE print "between D and E"
         else
         {
-            Debug.Log("större eller mindre än den ska vara");
+            Debug.Log("larger or smaller than it should be");
         }
-        //Prints if valC is bigger than valE or smaller than valD.
+        //if valC is bigger than valE or smaller than valD print "larger or smaller than it should be"
     }
 
     // Update is called once per frame

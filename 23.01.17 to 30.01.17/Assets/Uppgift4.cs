@@ -14,10 +14,12 @@ public class Uppgift4 : MonoBehaviour {
         {
 
             Debug.Log("in the middle");
+            //if their value is between A and B print "in the middle"
         }
         else
         {
             Debug.Log("not in the middle");
+            //if it's not print "not in the middle" 
         }
 	}
 	

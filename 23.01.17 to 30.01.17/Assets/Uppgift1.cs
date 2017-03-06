@@ -3,25 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Uppgift1 : MonoBehaviour {
-    public int ValA = 10;
-    public int ValB = 5;
-    private int ValC = 0;
-    private int ValD = 0;
+    public int valA = 10;
+    public int valB = 5;
+    private int valC = 0;
+    private int valD = 0;
 	// Use this for initialization
 	void Start () {
 
-        Debug.Log(ValA); 
+        Debug.Log(valA); 
 
-        Debug.Log(ValB);
+        Debug.Log(valB);
 
-        ValC = ValA;
-        ValD = ValB;
-        ValB = ValC;
-        ValA = ValD;
-            
-        Debug.Log(ValA);
+        
+        valC = valA;
+        valD = valB;
+        //swapped valA and valBs value to valC and valD to save them
 
-        Debug.Log(ValB);
+        valB = valC;
+        valA = valD;
+        //swapped their values 
+   
+        Debug.Log(valA);
+
+        Debug.Log(valB);
+
+        //print it
+
         }
 
         

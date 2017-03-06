@@ -3,23 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Uppgift2 : MonoBehaviour {
-    public float ValA = 5;
-    public float ValB = 10;
+    public float valA = 5;
+    public float valB = 10;
 	// Use this for initialization
-	void Start () {
-        //Om ValA är större än ValB så printar den ValA's värde i konsollen
-        if (ValA > ValB)
-        {
-            Debug.Log(ValA);
 
+	void Start () {
+
+
+        if (valA > valB)
+        {
+            Debug.Log(valA);
+
+            //if valA is bigger than valB print it 
         }
-            //Om ValB är större än Val A så printar den ValB's värde i konsollen
         else
         {
-            Debug.Log(ValB);
+            Debug.Log(valB);
+
+            //If valB is bigger than valA print it 
         }
-        //Om ValA är lika stort som ValB så printar den Same Value i konsollen
-            if (ValA == ValB)
+        //if their Values are equal print same value 
+            if (valA == valB)
             {
                 Debug.Log("Same Value");
             }

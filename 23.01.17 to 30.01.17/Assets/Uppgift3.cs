@@ -3,20 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Uppgift3 : MonoBehaviour {
-    public int ValA = 10;
-    public int ValB = 15;
+    public int valA = 10;
+    public int valB = 15;
 
     int Method()
     {
-        return ValA + ValB;
+        return valA + valB;
         
+        //is a method 
     }
     
 
     
 	// Use this for initialization
 	void Start () {
-        Debug.Log(ValA + ValB);
+        Debug.Log(valA + valB);
+        //print valAs + valBs value
 	}
 	
 	// Update is called once per frame
