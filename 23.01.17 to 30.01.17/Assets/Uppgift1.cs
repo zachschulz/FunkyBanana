@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Uppgift1 : MonoBehaviour {
+public class Uppgift1 : MonoBehaviour 
+{
+   
     public int valA = 10;
     public int valB = 5;
     private int valC = 0;
     private int valD = 0;
+
 	// Use this for initialization
 	void Start () {
 
@@ -14,20 +17,20 @@ public class Uppgift1 : MonoBehaviour {
 
         Debug.Log(valB);
 
-        
+        // swapped valA and valBs value to valC and valD to save them
         valC = valA;
         valD = valB;
-        //swapped valA and valBs value to valC and valD to save them
 
+        // swapped their values 
         valB = valC;
         valA = valD;
-        //swapped their values 
-   
+
+        // print it
         Debug.Log(valA);
 
         Debug.Log(valB);
 
-        //print it
+        
 
         }
 
